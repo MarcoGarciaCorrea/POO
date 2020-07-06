@@ -19,6 +19,12 @@
     <h2>¿Qué es una Clase?</h2>
     <p>Es la definición de como se ve un objeto y lo que puede hacer dentro de nuestro codigo <br>
        Es como una plantilla
+       <br>
+       <ul>
+       <li> <a href="clase1.php">Ejemplo de clases </a></li>
+       </ul>
+      
     </p>
+    
 </body>
 </html>
