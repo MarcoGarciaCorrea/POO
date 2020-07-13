@@ -25,6 +25,17 @@
        </ul>
       
     </p>
-    
+    <h2>Acceso a métodos</h2>
+    <p>
+    <ul>
+    <li>Public: Acceden todos</li>
+    <li>Private: Solo puede ser accedido por los miembros de la clase</li>
+    <li>Protected:Solo miembros de la case y clases heredadas</li>
+    </ul>
+    *En el caso de Private y Protected, creamos funciones publicas con return del valor protegido
+    </p>
+    <ul>
+    <li><a href="clase2.php">Acceso a métodos</a></li>
+    </ul>
 </body>
 </html>
