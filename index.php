@@ -37,5 +37,11 @@
     <ul>
     <li><a href="clase2.php">Acceso a métodos</a></li>
     </ul>
-</body>
+    <h2>Método Constructor</h2>
+    <p>Permite inicializar una clase con información enviada apartir de la creación del objeto <br>
+    Es un método mágico.
+    </p>
+    <ul>
+    <li><a href="clase2.php">Ejemplo de método constructor</a> (Se recomienda ver archivo "clase2.php"</li>
+    </ul>
 </html>
