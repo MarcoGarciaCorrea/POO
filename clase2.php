@@ -21,6 +21,8 @@ class Accesos{
         $this->dni=$dni;
         $this->nombre=$nombre;
     }
+
+    #Encapsulación: métodos Gettes and Setter
 }
 
 $acces= new Accesos(76145669,'Marco');
