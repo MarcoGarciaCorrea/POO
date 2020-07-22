@@ -55,4 +55,10 @@
 
     <h2>Interfaces</h2>
     <p>Permite definir los metodos que necesariamente debe usar una clase </p>
+
+    <h2>Método Destructor</h2>
+    <p>Permite destruir objetos creados, sigifica que libera espacio en memoria ayudando al fucionamiento de nuestra app</p>
+
+    <h2>propiedades estaticas</h2>
+    <p>Permite crear atributos estáticos y serán llamados a través self::</p>
 </html>

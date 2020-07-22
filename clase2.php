@@ -3,6 +3,7 @@
 interface Sexo {
     public function asignarSexo($sex);
     public function ObtenerSexo();
+    
 }
 
 class Accesos implements Sexo{
@@ -13,6 +14,8 @@ class Accesos implements Sexo{
     private $dni;
     private $nombre;
     private $S;
+    #creacion de atributo estático
+    public static $nacionalidad="peruano"; 
     #se crea testa función para mostrar el mensaje privado
     function msjPrivado(){
         return $this->privado ;
@@ -44,6 +47,12 @@ class Accesos implements Sexo{
     public function obtenerSexo(){
         return $this->S;
     }
+    #retorno de propiedad estatica
+    public function getNacionalidad(){
+        return self::$nacionalidad;
+    }
+
+    
 }
 
 $acces= new Accesos(76145669,'Marco');
@@ -56,5 +65,7 @@ echo "<p> Este es el dni modificado ".$acces->getDni()."</p>";
 
 $acces->asignarSexo("si");
 echo "<p> ".$acces->obtenerSexo()."</p>";
+echo "<p> ".$acces->getNacionalidad()."</p>";
+echo "<p> ".$acces::$nacionalidad."</p>";
 
 ?>
