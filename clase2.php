@@ -23,10 +23,22 @@ class Accesos{
     }
 
     #Encapsulación: métodos Gettes and Setter
+
+    public function getDni(){
+        return $this->dni;
+    }
+
+    public function setDni($numDni){
+        $this->dni=$numDni;
+    }
+
 }
 
 $acces= new Accesos(76145669,'Marco');
 echo "<p>".$acces->publico."</p>";
 echo "<p>".$acces->msjPrivado()."</p>";
 echo "<p>".$acces->msjDatos()."</p>";
+
+$acces->setDni(12345678);
+echo "<p> Este es el dni modificado ".$acces->getDni()."</p>";
 ?>
