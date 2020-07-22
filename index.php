@@ -46,4 +46,13 @@
     <li><a href="clase2.php">Ejemplo de método constructor</a> (Se recomienda ver archivo "clase2.php")</li>
     </ul>
     </p>
+    <h2>Encapsulación</h2>
+    <p>Permite asignar u obtener valores a atributos que tienen diferentes tipo de accesos. Se usan los métodos setter & getter
+    </p>
+    <ul>
+    <li><a href="clase2.php">Ejemplo de método getter and setter</a> (Se recomienda ver archivo "clase2.php")</li>
+    </ul>
+
+    <h2>Interfaces</h2>
+    <p>Permite definir los metodos que necesariamente debe usar una clase </p>
 </html>
