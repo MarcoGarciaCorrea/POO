@@ -8,13 +8,25 @@
             parent::__construct($name,$ape);
         }
 
-        function bienvenida(){
-            return "Bienvenido " .$this->nombre; 
+        public function validaNombre(){
+            if($this->nombre==""){
+                throw new Exception("Ingresa un nombre",1);
+            }
+         
+        }
+        public function bienvenida(){
+            try{
+                $this->validaNombre();
+            }catch(Exception $e){
+                echo 'Excepción capturada: ',  $e->getMessage(), "\n";
+            }
+            
+            //return "Bienvenido " .$this->nombre; 
         }
 
 
     }
        
-    $mostrar = new Clase3("Marco","García");
+    $mostrar = new Clase3("","García");
     echo $mostrar->bienvenida();
 ?>
